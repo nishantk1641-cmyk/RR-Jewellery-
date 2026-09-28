@@ -1,156 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>R. R. Jewellers — Crafted for Generations</title>
-<meta name="description" content="R. R. Jewellers — fine gold and jewellery in Mandi Chowk, Moradabad. A premium website concept.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Babu Ram Surendra Kumar Jewellers | Moradabad</title>
+<meta name="description" content="Babu Ram Surendra Kumar Jewellers, Mandi Chowk, Peer Gali, Moradabad. Gold, diamond, silver and bridal jewellery crafted with trust.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="grain"></div>
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6e3a1"/><stop offset=".5" stop-color="#d4a437"/><stop offset="1" stop-color="#8d6412"/></linearGradient>
+    <linearGradient id="gem" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".5" stop-color="#bfe3f5"/><stop offset="1" stop-color="#7fb4d6"/></linearGradient>
+    <symbol id="ring" viewBox="0 0 200 200"><circle cx="100" cy="122" r="50" fill="none" stroke="url(#gold)" stroke-width="12"/><path d="M100 30l24 22-24 30-24-30z" fill="url(#gem)" stroke="url(#gold)" stroke-width="4"/><path d="M76 52h48M100 30v52" stroke="#7fb4d6" stroke-width="1.5"/></symbol>
+    <symbol id="necklace" viewBox="0 0 200 200"><path d="M30 40Q100 190 170 40" fill="none" stroke="url(#gold)" stroke-width="5"/><path d="M60 100Q100 150 140 100" fill="none" stroke="url(#gold)" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round"/><path d="M100 150l-14 16 14 24 14-24z" fill="url(#gold)"/><circle cx="100" cy="166" r="5" fill="#8b1a2b"/></symbol>
+    <symbol id="jhumka" viewBox="0 0 200 200"><g id="j"><circle cx="70" cy="40" r="10" fill="url(#gold)"/><path d="M70 50v18" stroke="url(#gold)" stroke-width="4"/><path d="M42 118a28 28 0 0 1 56 0z" fill="url(#gold)"/><path d="M42 118h56l-6 14H48z" fill="#b8862b"/></g><g><circle cx="150" cy="40" r="10" fill="url(#gold)"/><path d="M150 50v18" stroke="url(#gold)" stroke-width="4"/><path d="M122 118a28 28 0 0 1 56 0z" fill="url(#gold)"/><path d="M122 118h56l-6 14h-44z" fill="#b8862b"/></g><g fill="#8b1a2b"><circle cx="70" cy="146" r="4"/><circle cx="150" cy="146" r="4"/></g></symbol>
+    <symbol id="bangle" viewBox="0 0 200 200"><ellipse cx="100" cy="100" rx="70" ry="70" fill="none" stroke="url(#gold)" stroke-width="14"/><ellipse cx="100" cy="100" rx="52" ry="52" fill="none" stroke="#fff3" stroke-width="2" stroke-dasharray="3 6"/><circle cx="100" cy="30" r="7" fill="#8b1a2b"/></symbol>
+    <symbol id="chain" viewBox="0 0 200 200"><g fill="none" stroke="url(#gold)" stroke-width="6"><ellipse cx="50" cy="100" rx="22" ry="12" transform="rotate(-20 50 100)"/><ellipse cx="82" cy="100" rx="22" ry="12" transform="rotate(20 82 100)"/><ellipse cx="114" cy="100" rx="22" ry="12" transform="rotate(-20 114 100)"/><ellipse cx="146" cy="100" rx="22" ry="12" transform="rotate(20 146 100)"/></g></symbol>
+    <symbol id="silver" viewBox="0 0 200 200"><path d="M60 60h80l-10 100H70z" fill="none" stroke="#dfe3e8" stroke-width="6"/><path d="M50 60h100" stroke="#dfe3e8" stroke-width="8" stroke-linecap="round"/><circle cx="100" cy="110" r="18" fill="none" stroke="#dfe3e8" stroke-width="3"/></symbol>
+  </defs>
+</svg>
 
-<header class="nav">
-  <a href="#home" class="logo"><span class="crest">RR</span><span>R. R. <b>JEWELLERS</b></span></a>
-  <nav>
-    <a href="#collections">Collections</a>
-    <a href="#story">Our story</a>
-    <a href="#visit">Visit us</a>
+<header id="nav">
+  <a href="#home" class="logo"><span>B R S K</span><small>Jewellers · Moradabad</small></a>
+  <button id="burger" aria-label="Menu">☰</button>
+  <nav id="menu">
+    <a href="#about">Heritage</a><a href="#collections">Collections</a><a href="#why">Why Us</a><a href="#visit">Visit</a>
+    <a href="#visit" class="btn small">Enquire</a>
   </nav>
-  <a class="nav-btn" href="tel:+919876543115">Enquire <span>↗</span></a>
 </header>
 
-<main id="home">
-<section class="hero">
-  <div class="hero-copy">
-    <div class="eyebrow"><span></span> MAN DI CHOWK · MORADABAD</div>
-    <h1>Jewellery<br><i>with a soul.</i></h1>
-    <p>Timeless gold. Refined details. Pieces chosen to become part of your story — from a trusted jewellery destination in the heart of Moradabad.</p>
-    <div class="actions">
-      <a class="btn gold" href="#collections">Discover the collection <span>↓</span></a>
-      <a class="btn outline" href="https://maps.app.goo.gl/5Brdid81jCczog7B6" target="_blank" rel="noopener">Find the showroom ↗</a>
-    </div>
-    <div class="proof">
-      <div><strong>4.8</strong><small>Google rating</small></div>
-      <div class="rule"></div>
-      <div><strong>2010</strong><small>Directory-listed since</small></div>
-      <div class="rule"></div>
-      <div><strong>11–20</strong><small>Open daily</small></div>
-    </div>
+<section id="home" class="hero">
+  <div class="sparkles"></div>
+  <div class="hero-text reveal">
+    <p class="eyebrow">Mandi Chowk · Peer Gali · Moradabad</p>
+    <h1>Jewellery that becomes <em>heirloom</em></h1>
+    <p class="lead">Babu Ram Surendra Kumar Jewellers brings you pure gold, sparkling diamonds and timeless designs, made for every celebration in your family.</p>
+    <div class="cta"><a href="#collections" class="btn">Explore Collections</a><a href="#visit" class="btn ghost">Visit Our Store</a></div>
   </div>
-
-  <div class="hero-art" aria-hidden="true">
-    <div class="halo h1"></div><div class="halo h2"></div>
-    <div class="stage-shadow"></div>
-    <div class="ring3d">
-      <div class="ring-band"></div>
-      <div class="diamond"><i></i><b></b><em></em></div>
-    </div>
-    <div class="spark s1">✦</div><div class="spark s2">✧</div><div class="spark s3">✦</div>
-    <div class="vertical-note">R. R. JEWELLERS · 01</div>
-    <div class="art-label"><span>THE</span><b>ETERNAL</b><span>EDIT</span></div>
+  <div class="hero-art reveal">
+    <div class="ring-glow"></div>
+    <svg class="float a"><use href="#ring"/></svg>
+    <svg class="float b"><use href="#necklace"/></svg>
+    <svg class="float c"><use href="#jhumka"/></svg>
   </div>
 </section>
 
-<section class="ticker"><div><span>GOLD</span><i>✦</i><span>DIAMONDS</span><i>✦</i><span>BRIDAL</span><i>✦</i><span>STATEMENT PIECES</span><i>✦</i><span>GOLD</span><i>✦</i><span>DIAMONDS</span><i>✦</i></div></section>
+<div class="strip"><span>✦ Hallmarked Gold</span><span>✦ Certified Diamonds</span><span>✦ Custom Designs</span><span>✦ Fair Exchange</span><span>✦ Bridal Sets</span></div>
 
-<section class="intro section" id="story">
-  <div class="kicker">01 — THE HOUSE</div>
-  <div class="intro-grid">
-    <h2>Some pieces<br>are <i>forever.</i></h2>
-    <div>
-      <p class="lead">Jewellery is more than what catches the light. It is what stays with you — a wedding, a milestone, a gift, a memory.</p>
-      <p class="sub">R. R. Jewellers is presented here as a refined local jewellery house in Mandi Chowk, bringing a more considered digital experience to a familiar showroom.</p>
+<section id="about" class="section split">
+  <div class="reveal">
+    <p class="eyebrow dark">Our Heritage</p>
+    <h2>Trust, built one ornament at a time</h2>
+    <p>In the lanes of Mandi Chowk, Moradabad, families have come to us for the moments that matter: a wedding, a festival, a new arrival. We believe jewellery is more than metal and stone. It is a promise, a memory and a blessing passed on.</p>
+    <p>Every piece is chosen and crafted with honest purity, transparent pricing and the personal care that only a family jeweller can give.</p>
+    <div class="stats">
+      <div><b data-n="100">0</b>%<small>Purity focus</small></div>
+      <div><b data-n="1000">0</b>+<small>Designs to browse</small></div>
+      <div><b data-n="24">0</b>K<small>Gold options</small></div>
     </div>
   </div>
+  <div class="about-card reveal"><svg><use href="#bangle"/></svg><svg><use href="#chain"/></svg><p>“Jewellery is the art of turning love into something you can hold.”</p></div>
 </section>
 
-<section class="collections section" id="collections">
-  <div class="head">
-    <div><div class="kicker">02 — COLLECTIONS</div><h2>Find your<br><i>signature.</i></h2></div>
-    <p>Explore by mood. Then visit the showroom to discover the actual designs, metals, stones and current pricing available in store.</p>
-  </div>
+<section id="collections" class="section dark-sec">
+  <div class="center reveal"><p class="eyebrow">Collections</p><h2>Crafted for every occasion</h2></div>
   <div class="grid">
-    <article class="card large" data-tilt>
-      <div class="card-bg gold-bg"></div>
-      <div class="jewel necklace"><div class="chain"></div><div class="pendant"></div></div>
-      <span class="index">01</span>
-      <div class="card-copy"><small>01 / 04</small><h3>Gold</h3><p>Classic forms with a warm, unmistakable glow.</p></div>
-    </article>
-    <article class="card" data-tilt>
-      <div class="card-bg pearl-bg"></div>
-      <div class="earring"><div></div><span></span></div>
-      <span class="index">02</span>
-      <div class="card-copy"><small>02 / 04</small><h3>Diamond</h3><p>Quiet brilliance for every occasion.</p></div>
-    </article>
-    <article class="card" data-tilt>
-      <div class="card-bg rose-bg"></div>
-      <div class="mini-ring"><div></div></div>
-      <span class="index">03</span>
-      <div class="card-copy"><small>03 / 04</small><h3>Rings</h3><p>A little circle with a lot to say.</p></div>
-    </article>
-    <article class="card wide" data-tilt>
-      <div class="card-bg dark-bg"></div>
-      <div class="bangle"><div class="bangle-inner"></div></div>
-      <span class="index">04</span>
-      <div class="card-copy"><small>04 / 04</small><h3>Bridal & Statement</h3><p>For celebrations that deserve their own moment.</p></div>
-    </article>
+    <article class="card reveal"><svg><use href="#necklace"/></svg><h3>Gold Jewellery</h3><p>Necklaces, chains, rings and everyday classics in pure gold.</p></article>
+    <article class="card reveal"><svg><use href="#ring"/></svg><h3>Diamond Jewellery</h3><p>Brilliant solitaires and delicate designs that catch every light.</p></article>
+    <article class="card reveal"><svg><use href="#jhumka"/></svg><h3>Earrings &amp; Jhumkas</h3><p>From light studs to statement traditional jhumkas.</p></article>
+    <article class="card reveal"><svg><use href="#bangle"/></svg><h3>Bangles &amp; Kadas</h3><p>Classic and contemporary bangles for brides and gifting.</p></article>
+    <article class="card reveal"><svg><use href="#chain"/></svg><h3>Bridal Collection</h3><p>Complete wedding sets planned around your ceremony and budget.</p></article>
+    <article class="card reveal"><svg><use href="#silver"/></svg><h3>Silver &amp; Gifting</h3><p>Silverware and thoughtful gifts for festivals and new beginnings.</p></article>
   </div>
 </section>
 
-<section class="manifesto">
-  <div class="manifesto-inner">
-    <div class="kicker">03 — THE DETAIL</div>
-    <h2>Wear the moment.<br><i>Keep the memory.</i></h2>
-    <p>Beautiful jewellery has a way of making an ordinary day feel significant. Choose slowly. Try it on. Let the right piece find you.</p>
-    <a class="line-link" href="tel:+919876543115">Speak with the showroom <span>→</span></a>
+<section id="why" class="section">
+  <div class="center reveal"><p class="eyebrow dark">Why Choose Us</p><h2>The jeweller your family can rely on</h2></div>
+  <div class="grid why">
+    <div class="reveal"><i>◆</i><h3>Honest Purity</h3><p>Clear hallmarking and transparent billing, every time.</p></div>
+    <div class="reveal"><i>◆</i><h3>Made Your Way</h3><p>Bring an idea or a picture. We help turn it into a custom piece.</p></div>
+    <div class="reveal"><i>◆</i><h3>Fair Exchange</h3><p>Upgrade old jewellery with straightforward, fair valuation.</p></div>
+    <div class="reveal"><i>◆</i><h3>Personal Care</h3><p>Warm, unhurried guidance from a family-run team.</p></div>
   </div>
 </section>
 
-<section class="visit section" id="visit">
-  <div class="visit-box">
-    <div class="visit-copy">
-      <div class="kicker">04 — THE SHOWROOM</div>
-      <h2>Come in.<br><i>Take your time.</i></h2>
-      <p>Near Hanuman Mandir<br>Mandi Chowk, Bartan Bazaar<br>Moradabad, Uttar Pradesh 244001</p>
-      <div class="hours"><span>MON — SUN</span><strong>11:00 AM — 08:00 PM</strong></div>
-      <div class="actions">
-        <a class="btn dark-gold" href="https://maps.app.goo.gl/5Brdid81jCczog7B6" target="_blank" rel="noopener">Open in Maps ↗</a>
-        <a class="btn dark-outline" href="tel:+919876543115">+91 98765 43115</a>
-      </div>
-    </div>
-    <div class="map">
-      <div class="map-lines"></div><div class="road a"></div><div class="road b"></div><div class="road c"></div>
-      <div class="pin"><span></span></div>
-      <div class="map-caption">R. R.<br><b>JEWELLERS</b></div>
-    </div>
-  </div>
+<section class="banner reveal">
+  <h2>Planning a wedding or festival purchase?</h2>
+  <p>Talk to us on WhatsApp for designs, guidance and today's rates.</p>
+  <a class="btn light" data-wa href="#">Chat on WhatsApp</a>
 </section>
 
-<section class="trust section">
-  <div class="head compact">
-    <div><div class="kicker">05 — LOCAL TRUST</div><h2>Already part of<br><i>Moradabad.</i></h2></div>
-    <div class="rating"><strong>4.8</strong><span>★★★★★<small>90 Google reviews</small></span></div>
+<section id="visit" class="section split">
+  <div class="reveal">
+    <p class="eyebrow dark">Visit Us</p>
+    <h2>Come see it in person</h2>
+    <ul class="info">
+      <li><b>Address</b>Babu Ram Surendra Kumar Jewellers, Mandi Chowk, Peer Gali, Moradabad, Uttar Pradesh 244001</li>
+      <li><b>Phone</b><a data-tel href="#">+91 XXXXX XXXXX</a></li>
+      <li><b>Hours</b>Mon – Sat: 10:30 AM – 8:00 PM (please confirm)</li>
+    </ul>
+    <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Babu+Ram+Surendra+Kumar+Jewellers+Moradabad">Get Directions</a>
   </div>
-  <div class="review">
-    <div class="quote-mark">“</div>
-    <blockquote>A premium digital presence for a jewellery house should feel as considered as the pieces in its showroom.</blockquote>
-    <div class="review-foot">R. R. JEWELLERS · MANDI CHOWK</div>
-  </div>
+  <div class="map reveal"><iframe title="Map" loading="lazy" src="https://www.google.com/maps?q=Babu+Ram+Surendra+Kumar+Jewellers+Mandi+Chowk+Moradabad&output=embed"></iframe></div>
 </section>
-</main>
 
-<footer>
-  <div class="foot-top">
-    <a href="#home" class="logo"><span class="crest">RR</span><span>R. R. <b>JEWELLERS</b></span></a>
-    <p>Crafted for generations.</p>
-    <a href="tel:+919876543115">Call the showroom ↗</a>
-  </div>
-  <div class="foot-bottom"><span>© 2026 R. R. Jewellers</span><span>Moradabad, Uttar Pradesh</span><a href="#home">Back to top ↑</a></div>
-</footer>
+<footer><div class="logo"><span>B R S K</span><small>Babu Ram Surendra Kumar Jewellers</small></div><p>Mandi Chowk, Peer Gali, Moradabad – 244001</p><p class="copy">© <span id="yr"></span> Babu Ram Surendra Kumar Jewellers. All rights reserved.</p></footer>
+<a class="wa-float" data-wa href="#" aria-label="WhatsApp">💬</a>
 <script src="script.js"></script>
 </body>
 </html>
